@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{margin: 0; padding: 0;}
+body {
+	/*overflow: hidden;*/
+	background: black;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: #5699F3;
+}
+.button {
+  border: 2px solid #5699F3;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  background: black;
+}
+.button:hover {
+	color: white;
+	background-color: #5699F3;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Dela Gothic One', cursive;
+	letter-spacing: 5px;
+	color: #5699F3;
+}
+article, p {
+	letter-spacing: 2px;
+	word-spacing: 1.5px;
+	line-height: 35px;
+}
+.preloader {
+	z-index: 99999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	background-image: url("preloader.gif"); 
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+.costome-cursor {
+	position: absolute;
+	height: 2rem;
+	width: 2rem;
+	border: 1px solid #ffffffc9;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 11;
+	pointer-events: none;
+	transition: all 0.07s;
+}
+/*add and remove on links*/
+.hover-link {
+	transform: translate(-50%, -50%);
+	transition: all 0.5s ease;
+	transition-property: background, transform;
+	background-color: #ffffff70;
+	transform: scale(2);
+	border: none;
+}
+
+/*header*/
+header {
+	border-bottom: 1px solid #353333;
+}
+.input-group {
+	width: 20%;
+	margin-left: 2rem;
+}
+.video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -5;
+	width: 100%;
+	opacity: 0.5;
+	/*height: 100vh;*/
+}
+/*sec1*/
+.homePageImg {
+	width: 50%;
+}
+/*socil media*/
+.socil-media {
+    position: fixed;
+    right: 1rem;
+    top: 10rem;
+}
+.socil-media-ul {
+	list-style-type: none;
+}
+.socil-media-li {
+	font-size: 1.5em;
+	padding: 1rem;
+}
+
+/*Sections*/
+
+/*sec 1*/
+.sec {
+	width: 80%;
+	margin: auto;
+	margin-top: 10rem;
+}
+.col-home:last-child {
+	margin-top: 10rem;
+}
+.row-home{
+	/*background: url("../img/home background.mp4");*/
+	margin-top: 5rem;
+}
+.home-img {
+	cursor: cell;
+    width: 35rem;
+    border-radius: 50%;
+    border: 1rem solid #5699F3;
+	transform: scale(0.8);
+    transition: all 0.5s;
+}
+.home-img:hover {
+	border: 1rem solid #5699F3;
+	border-radius: 0%;
+	transform: scale(1);
+}
+
+
+/*section 1*/
+.about-title {
+	text-align: center;
+  	margin: 4rem 0px;
+  	
+}
+.about-title > span {
+	color: white;
+}
+.underline {
+	width: 102px;
+	height: 2px;
+	background: #5699f3;	
+	margin-left: 37rem;
+	margin-top: 0.6rem;
+}
+.info-about {
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+.article-about > h6 {
+	line-height: 45px;
+}
+.article-about>h6>span {
+	font-weight: bold;
+}
+.card-about {
+	background: black;
+	border: 1px solid #4d4949;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+.line {
+	width: 10px;
+	height: 10px;
+	background: gray;
+}
+.line {
+	width: 32px;
+	height: 2px;
+	background: gray;
+	display: inline-block;
+	margin: 0.1rem;
+	margin-end: -15.rem;
+	marker-end: 5px;
+	margin-right: 1rem;
+}
+.text {
+	margin-left: 2rem;
+}
+
+/*section 2*/
+.div-line {
+	background: #313131;
+	width: 39rem;
+	height: 3px;
+	margin-top: 2rem;
+	margin-left: 23rem;
+}
+.title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.row-skills {
+	margin-bottom: 5rem;
+}
+.row-skills span {
+	font-weight: bold;
+}
+
+/*education*/
+.education {
+	margin-bottom: 5rem;
+}
+.edu {
+  padding-left: 1rem;
+  border-left: 1px solid #4d4949;
+  position: relative;
+}
+.degree {
+  font-size: 1.2em;
+}
+.institute {
+	text-decoration: underline;
+}
+.year-icon{
+	color: #5699f3
+}
+
+
+.contact-title {
+	text-align: center;
+  	margin: 4rem 0px;
+}
+.contact-title > span {
+	color: white;
+}
+.underline {
+	width: 102px;
+	height: 2px;
+	background: #5699f3;	
+	margin-left: 37rem;
+	margin-top: 0.6rem;
+}
+.title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.title-contect {
+  font-weight: bold;
+  font-size: 2em;
+}
+.cont {
+    width: 15rem;
+    margin: 17px 0px;
+}
+.cont > span {
+    font-size: 35px;
+    padding: 2px 9px;
+    background: #5699f3;
+    margin-right: 12px;
+}
+.profiles {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+.profiles > a {
+	color: white !important;
+    font-size: 21px;
+    padding: 14px 19px;
+    background: #000;
+    border-radius: 50%;
+    border: 2px solid #5699f3;
+    transition: 0.6s
+}
+.profiles > a:hover {
+	background: #5699f3;
+	color: white !important;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info-input {
+    width: 19rem;
+}
+.input {
+	background: #242424;
+	color: white;
+}
+#textarea {
+    margin: 1.5rem 0;
+}
+.btn.sub-btn {
+    background: #5699f3;
+    color: white;
+    font-weight: bold;
+}
+
+  main {
+  	margin-bottom: 8rem;
+  }
+
+
+
+
+/*This is for mobile sereen size*/
+@media screen and (max-width: 768px) {
+	body {
+		overflow: auto;
+		background: black;
+		color: white;
+	}
+	.costome-cursor {
+	  	display: none;
+	}
+	.socil-media-ul {
+	    display: flex;
+	    position: fixed;
+	    bottom: -18px;
+	    left: 0;
+	    width: 100%;
+		background: #5699f3;
+		z-index: -5;
+
+	}
+	.home-img{
+		width: 316px;
+		border: 0.5rem solid #5699F3;
+	}
+	.col-home:last-child {
+		margin-top: 2rem;
+		margin-bottom: 7rem;
+	}
+
+	.underline {
+		margin-left: 6rem;
+	}
+	.info-about {
+		display: block !important;
+		margin-right: 0rem;
+		width: 90%;
+	}
+	.article-about {
+		width: 100%;
+	}
+	.div-line {
+		margin-left: 0rem;
+		width: 16.5rem;
+	}
+	.card-about {
+		position: static
+
+	}
+	.row-skills {
+		margin-bottom: 0rem;
+	}
+	.col-progress {
+		flex: none;
+		margin-bottom: 1.5rem;
+	}
+	.edu {
+		position: static;
+		margin-bottom: 2rem;
+	}
+
+
+  .contact-title {
+    margin:2rem 0;
+  }
+  .underline {
+    margin-left: 6rem;
+  }
+  .title-contect {
+    font-size: 1.5rem
+  }
+  .profiles {
+    margin: 3rem 0;
+  }
+  .info {
+    display: block;
+  }
+  .info-input {
+    width: 16.5rem;
+    margin-bottom: 2rem;
+  }
+
+	
+}
