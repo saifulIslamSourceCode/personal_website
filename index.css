@@ -314,9 +314,9 @@ header {
 		background: black;
 		color: white;
 	}
-	main {
-  		margin-bottom: 2rem;
-  	}
+	.sec {
+		margin-top:0rem;
+	}
 	.costome-cursor {
 	  	display: none;
 	}
